@@ -19,7 +19,7 @@ class Navbar extends Component {
     return (
       <div className="navbar" style={{ height: this.state.isMenuOpen ? '100%' : null}}>
         <Link to="/" onClick={this.props.setClicked}>
-          <h1>HB</h1>
+          <h1>REP</h1>
         </Link>
         <Burger setClicked={this.props.setClicked} isMenuOpen={this.isMenuOpen}/>
         <div className="nav-right">
@@ -30,7 +30,7 @@ class Navbar extends Component {
             <p className="padding">ABOUT</p>
           </Link>
           <a href="https://drive.google.com/file/d/1ashNYOudektyfoCFpPiZhM5iTWzpF7PR/view?usp=sharing" alt="" target="_blank"><p className="padding">RÉSUMÉ</p></a>
-          <a href="mailto:hbarlar1@gmail.com" target="_top"><p id="contact">CONTACT</p></a>
+          <a href="mailto:Richardepitts@gmail.com" target="_top"><p id="contact">CONTACT</p></a>
         </div>
       </div>
     )
